@@ -31,7 +31,7 @@ params = dict(
     passenger_count=passenger_count)
 
 wagon_cab_api_url = 'https://taxifare.lewagon.ai/predict'
-response = requests.get(wagon_cab_api_url, params=params)
+response = requests.get(wagon_cab_api_url, params=params
 
 prediction = response.json()
 
